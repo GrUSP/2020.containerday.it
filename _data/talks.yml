@@ -1,0 +1,7 @@
+# -
+#   speaker_id: fabio-mora
+#   title: "La Unix Way vista da un DevOps."
+#   extract: >
+#     "Con l'acronimo KISS (Keep It Simple and Stupid) si evoca un modo di fare software antico: la UNIX Way. Ma non è tutto racchiuso lì dentro, si tratta piuttosto di una filosofia progenitrice del movimento DevOps. Declinata oggi nel mondo Linux da migliaia di tecnici e organizzazioni, che include assunti come modularità, semplicità, composizione e chiarezza nel fare.
+#     Tutto evolve portandosi dietro principi solidi e al tempo stesso pronti al cambiare: dai modelli open-source ai flussi Git, dalla gestione dei pacchetti ai container, dalle infrastrutture a risorse finite agli orchestratori del cloud; fino a mescolare le definizioni stesse di sistema operativo e applicazione tra user-space e kernel-space. Henry Spencer, padre delle RegEx, scrisse coloro che non capiscono Unix sono condannati a inventarlo di nuovo.
+#     In questo talk racconto ciò che ho imparato da questa filosofia che già in tempi non sospetti si occupava di sistemi complessi, e ha ancora molto da regalare a chi è coinvolto nella produzione e nel mantenimento di software."

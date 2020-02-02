@@ -1,0 +1,13 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+call_for_paper_url: https://forms.gle/tGyGBhATWNhVoVd76
+call_for_paper: true
+list:
+  # -
+  #   id: paolo-tonin
+  #   description:
+  #   image: paolo-tonin.jpg
+  #   first_name: Paolo
+  #   last_name: Tonin
+  #   twitter: paolopstonin
+  

@@ -1,0 +1,149 @@
+list:
+  -
+    slug: corso-ansible
+    title: Corso Ansible
+    when: 7 Novembre 2019, Bologna. Ore 9:30 - 18:00  
+    where: Hotel Savoia Regency, Via del Pilastro 2, 40127, Bologna BO
+    map: https://goo.gl/maps/pT6toDSe3Em
+    ticket: /tickets.html
+    partner:
+      name: biodec
+      link: https://www.biodec.it
+      bio: "BioDec è un gruppo di persone che lavora nell'IT fornendo consulenza, attività di sviluppo software, formazione, progettazione e manutenzione. Le nostre competenze sono nella bioinformatica, nel calcolo scientifico, nella progettazione e nella gestione di infrastrutture informatiche complesse. BioDec ha ormai dieci anni di età e ha avuto modo di gestire progetti complessi per centri di ricerca, piccole e medie aziende, multinazionali e nell'ambito di progetti di ricerca europei (settimo programma quadro). BioDec sostiene il software libero e i formati aperti e adotta tecnologie non proprietarie."
+    teacher:
+      name: Serena Lorenzini
+      picture: teacher.jpg
+      bio: Ph.D., BioDec
+      link:
+    intro: |
+      Automatizzare le attività ripetitive e standardizzare gli ambienti è un problema che investe il mondo IT sia dal lato della gestione dei sistemi (Ops) che dal lato dello sviluppo (Dev). Il proliferare delle piattaforme e in particolare l’uso delle soluzioni Cloud ha accentuato il problema, rendendo necessario avere strumenti veloci, affidabili e facili per la gestione di configurazioni e per il continuo rilascio di codice.
+
+      **Ansible: la nostra soluzione**
+
+      Ansible è uno strumento per orchestrare l’installazione e la configurazione di sistemi ed applicazioni: permette di definire lo stato di uno o più server in modo prevedibile, replicabile e consistente. Simile in questo a software come Puppet, Chef, Saltstack o CFEngine, esso basa la propria filosofia su una parola chiave: la semplicità d’uso
+      A differenza di altri sistemi, Ansible non necessita di altro che di una connessione SSH tra la macchina che funge da controllore e i server da controllare, e tutto si gestisce con semplici direttive di configurazione contenute in file testuali. Ancora: è una soluzione agentless per cui non è necessario installare nessun client sugli hosts da configurare, ma solo Python e – cosa che non guasta – è anche un prodotto che presenta una curva di apprendimento molto agevole.
+
+      **Cosa avrò imparato alla fine del corso?**
+      - A scrivere playbook e role Ansible per fare partire, fermare e configurare dei server Linux; si imparerà come si definiscono con Ansible i profili di configurazione di vari server, corrispondenti ad usi differenti (*i.e.* web server, database server, server di monitoraggio, eccetera).
+      - Si imparerà, inoltre, come svolgere alcune azioni ripetitive su tutti i server dell'infrastruttura, come ad esempio aggiornare dei pacchetti software, fare deploy di nuovi programmi, eccetera.
+      - Si imparerà a testare il codice Ansible con Molecule, un prodotto del progetto Ansible ufficiale.
+      - Si affronteranno tematiche DevOps come la configurazione della *Continuous Integration* in un ambiente misto Docker/Virtual Machine per testare il nostro codice.
+    program: |
+      Scaletta corso:
+      - 9:00 Registrazione dei partecipanti
+      - 9:30 Inizio del corso
+      - 11:00 Break
+      - 13:00 Pausa pranzo
+      - 14:30 Ripresa delle attività
+      - 16:00 Break
+      - 18:00 Conclusione
+    addressed_info: |
+      Il corso si applica a tutti, ma è bene avere una confidenza di base con la shell Bash – si lavorerà su una macchina Vagrant Debian.
+    useful_info: |
+      La durata del corso è di una giornata e **si terrà il 7 Novembre** (il giorno prima della conferenza).
+      È responsabilità del partecipante arrivare con portatile configurato e funzionante con Vagrant. Vi daremo tutte le indicazioni utili per la configurazione.
+  # -
+  #   slug: corso-kubernetes
+  #   title: Operare Ambienti di Produzione su Kubernetes
+  #   when: 7 Novembre 2019, Bologna. Ore 9:30 - 18:00  
+  #   where: Hotel Savoia Regency, Via del Pilasto 2, 40127, Bologna BO
+  #   map: https://goo.gl/maps/pT6toDSe3Em
+  #   ticket: /tickets.html
+  #   partner:
+  #     name: sighup
+  #     link: https://www.sighup.io
+  #     bio: "#Kubernetes and #CloudNative. We help companies and enterprises during their journey towards software-defined infrastructures."
+  #   teacher:
+  #     name: Luca Novara
+  #     picture: luca-novara.jpg
+  #     bio: Devops Engineer
+  #     link:
+  #   intro: |
+  #     "Questo workshop è rivolto a sistemisti e DevOps engineer che già utilizzano Kubernetes e che vogliono approfondire alcuni aspetti avanzati legati alla gestione di cluster Kubernetes in ambienti di produzione.
+  #     La prima parte sarà dedicata ai principali aspetti di deployment e mantenimento degli applicativi con particolare attenzione a best practice, troubleshooting, logging e monitoraggio.
+  #     La seconda parte sarà dedicata alla messa in sicurezza del cluster focalizzandoci sulla gestione degli accessi, la protezione dei dati e la migrazione.
+  #     L’obiettivo del corso è di fornire ai partecipanti un’esperienza pratica sugli aspetti fondamentali di gestione di un applicativo su cluster Kubernetes."
+  #   program: |
+  #     Scaletta corso:
+  #     - Come deployare applicazioni su Kubernetes seguendo le best practice
+  #     - Come fare troubleshooting e debugging
+  #     - Monitoraggio infrastrutturale e applicativo con Prometheus
+  #     - Logging centralizzato
+  #     - Autenticazione e autorizzazione
+  #     - Backup e disaster recovery
+  #     - Come migrare applicativi da un cluster ad un altro
+  #   addressed_info: |
+  #     Alla fine del corso ogni partecipante saprà gestire applicazioni su Kubernetes e avrà sperimentato, con un approccio hands-on, le features di Kubernetes utili per gestire applicazioni in produzione.
+  #   useful_info: |
+  #      La durata del corso è di una giornata e si terrà il 7 Novembre (il giorno prima della conferenza). È responsabilità del partecipante arrivare con portatile configurato e funzionante. Qualche giorno prima del corso verranno fornite ulteriori istruzioni per configurare ed installare le applicazioni necessarie.
+  # -
+  #   slug: kubernetes-security
+  #   title: "Kubernetes Security"
+  #   subtitle: Intro alle criticità e definizione delle politiche di sicurezza del container orchestrator più diffuso
+  #   when: 7 Novembre 2019, Bologna. Ore 9:30 - 18:00  
+  #   where: Hotel Savoia Regency, Via del Pilastro 2, 40127, Bologna BO
+  #   map: https://goo.gl/maps/pT6toDSe3Em
+  #   ticket: /tickets.html
+  #   partner:
+  #     name: Kiratech
+  #     link: https://www.kiratech.it/
+  #     bio: >
+  #       CNCF Silver Member & Linux Foundation Partner, Kubernetes Certified Service Provider e Training Partner.
+  #   teacher:
+  #     name: Francesco Tornieri
+  #     picture: francesco-tornieri.jpg
+  #     bio: La giornata di formazione verrà tenuta da Kiratech, CNCF Silver Member & Linux Fountation Partner, Kubernetes Certified Service Provider e Training Partner, nella persona di Francesco Tornieri. Francesco è Docker & Kubernetes Trainer e DevOps Expert e si occupa di sicurezza informatica e di sistemi open-source da oltre quindici anni. Ha pubblicato numerosi articoli su riviste come Linux Journal e Hakin9. È autore del libro "Linux. Configurarlo al meglio". È membro dell’AIPSI - Associazione Italiana Professionisti Sicurezza Informatica, certificatore CAcert per certificati SSL. Ricopre la carica di cultore della materia presso l'Università Cattolica di Milano, cattedre di "Informatica 2" e "Sistemi operativi per le banche on-line" nonchè trainer certificato Docker.
+  #     link: https://www.kiratech.it/
+  #   intro: |
+  #      Kubernetes sta riscontrando un enorme successo sulla scena tecnologica da due anni a questa parte: le principali aziende in tutto il mondo hanno adottato o stanno adottando tale piattaforma per orchestrare e ridimensionare i propri carichi di lavoro basati su container nell’ottica di un approccio Cloud Native. 
+  #      Ma come per ogni nuova tecnologia complessa e in rapido sviluppo, è importante **comprendere qual è il relativo livello di sicurezza** e come poter rendere l’implementazione e l’utilizzo di Kubernetes **secure-by-design**.
+  #   program: |
+  #     Utilizzi Kubernetes o vorresti iniziare ad usarlo, ma vuoi approfondire:
+  #     - quali sono le criticità della piattaforma dal punto di vista della security?
+  #     - come misurare il livello di security e i rischi della piattaforma?
+  #     - come proteggere le immagini dei container da vulnerabilità note e abusi da parte di terzi? 
+  #     - come rafforzare le policy a livello di runtime dei container e di rete? 
+  #     - come gestire meglio informazioni riservate, come ad esempio credenziali?
+  #     Durante questo workshop approfondiremo risalto le **criticità**, lato security, dell'orchestratore k8s. Durante la giornata verranno evidenziati i **potenziali rischi** ed eventuali **contromisure** analizzando gli strumenti che k8s mette a disposizione.
+      
+  #     **Il Workshop ti aiuterà a comprendere:**
+  #     come **implementare un ambiente sicuro, solido e agile** per i tuoi sistemi di produzione.
+      
+  #     AGENDA:
+  #     - Introduzione al concetto di Cloud Native security
+  #     - Introduzione a Kubernetes
+  #     - Concetti base su Kubernetes
+  #       - pod
+  #       - nodi
+  #       - service
+  #       - namespace-componenti Kubernetes
+  #       - api server
+  #       - kubelet
+  #       - CRI
+  #       - etcd server
+  #       - dashboard
+  #       - metriche
+  #     - analisi dei rischi e definizione di una superficie di attacco
+  #     - analisi dei vettori di attacco
+  #     - introduzione alle politiche di sicurezza di Kubernetes
+  #       - gestione degli upgrade
+  #       - Authentication e Authorization
+  #       - Kubernetes e auth
+  #       - network policy
+  #       - RBAC
+  #       - Introduzione ad istio e alla sicurezza nella comunicazione tra applicazioni
+  #       - Securing networking data path (cilium)
+  #     - concetti base per l'hardening della CRI
+
+  #     Il docente si riserva di effettuare delle demo dimostrative al termine del Workshop.
+
+  #   addressed_info: |
+  #     A coloro che sono interessati a capire il modello di security ed hardening utilizzato da k8s, nello specifico: 
+  #     - Sviluppatori che desiderano sviluppare applicazioni sicure in  ambiente Kubernetes; 
+  #     - Sysadmin che sono interessati alle buone pratiche di sicurezza per le piattaforme container Kubernetes;
+  #     - Architect interessati alla progettazione di soluzioni sicure basate su Kubernetes
+      
+  #   useful_info: |
+  #     La durata del corso è di una giornata e **si terrà il 7 Novembre** (il giorno prima della conferenza), dalle ore 9:30 alle 18:00.
+  #     Tutti i partecipanti dovranno avere un k8s di test. 
+  #     Al termine del workshop verrà rilasciata una versione ridotta delle slides presentate, composta dal materiale non coperto da Copyright.

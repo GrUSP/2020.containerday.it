@@ -66,6 +66,9 @@ silver:
   max: 32
   list:
     -
+      url: https://labs.madisoft.it/?utm_source=containerday
+      image: madisoft.svg  
+    -
       url: https://www.workwave.com/?utm_source=containerday
       image: workwave.svg
 
@@ -77,5 +80,7 @@ bronze:
     - 2 biglietti scontati del 10%
   max: 64
   list:
-
+    -
+      url: http://stickermule.com/supports/grusp20-sponsorship
+      image: stickermule.svg    
 

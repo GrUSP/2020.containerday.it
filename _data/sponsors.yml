@@ -39,7 +39,6 @@ platinum:
   max: 8
   list:
 
-
 gold:
   price: € 1,500
   offer:
@@ -53,7 +52,6 @@ gold:
   max: 16
   list:
 
-      
 silver:
   price: € 750
   offer:
@@ -78,4 +76,8 @@ bronze:
   max: 64
   list:
 
-
+diversity:
+  list:
+    -
+      url: https://balsamiq.com/?utm_source=containerday
+      image: balsamiq.svg

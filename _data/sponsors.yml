@@ -39,7 +39,6 @@ platinum:
   max: 8
   list:
 
-
 gold:
   price: € 1,500
   offer:
@@ -53,7 +52,6 @@ gold:
   max: 16
   list:
 
-      
 silver:
   price: € 750
   offer:
@@ -67,7 +65,7 @@ silver:
   list:
     -
       url: https://labs.madisoft.it/?utm_source=containerday
-      image: madisoft.svg  
+      image: madisoft.svg
     -
       url: https://www.workwave.com/?utm_source=containerday
       image: workwave.svg
@@ -82,5 +80,10 @@ bronze:
   list:
     -
       url: http://stickermule.com/supports/grusp20-sponsorship
-      image: stickermule.svg    
+      image: stickermule.svg
 
+diversity:
+  list:
+    -
+      url: https://balsamiq.com/?utm_source=containerday
+      image: balsamiq.svg

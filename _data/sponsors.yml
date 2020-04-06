@@ -21,9 +21,9 @@ main:
     - 5 biglietti scontati del 50%
   max: 1
   list:
-    # -
-    #   url: http://www.suse.com/?utm_source=containerday
-    #   image: suse.svg
+    -
+      url: http://sighup.io/?utm_source=containerday
+      image: sighup.svg
       
 platinum:
   price: € 3,000

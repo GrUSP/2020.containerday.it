@@ -1,7 +1,51 @@
-# -
-#   speaker_id: fabio-mora
-#   title: "La Unix Way vista da un DevOps."
-#   extract: >
-#     "Con l'acronimo KISS (Keep It Simple and Stupid) si evoca un modo di fare software antico: la UNIX Way. Ma non è tutto racchiuso lì dentro, si tratta piuttosto di una filosofia progenitrice del movimento DevOps. Declinata oggi nel mondo Linux da migliaia di tecnici e organizzazioni, che include assunti come modularità, semplicità, composizione e chiarezza nel fare.
-#     Tutto evolve portandosi dietro principi solidi e al tempo stesso pronti al cambiare: dai modelli open-source ai flussi Git, dalla gestione dei pacchetti ai container, dalle infrastrutture a risorse finite agli orchestratori del cloud; fino a mescolare le definizioni stesse di sistema operativo e applicazione tra user-space e kernel-space. Henry Spencer, padre delle RegEx, scrisse coloro che non capiscono Unix sono condannati a inventarlo di nuovo.
-#     In questo talk racconto ciò che ho imparato da questa filosofia che già in tempi non sospetti si occupava di sistemi complessi, e ha ancora molto da regalare a chi è coinvolto nella produzione e nel mantenimento di software."
+ -
+   speaker_id: cristiano-degiorgis
+   title: "Kubernetes as backend: CRD & Operators"
+   extract: >
+     "In questa sessione parleremo dell'estensibilità di Kubernetes attraverso l'uso delle Custom Resource Definition. 
+     Affronteremo questo tema da due prospettive complementari: un utilizzo più tradizionale dell'utilizzo delle CRD contrapposto ad un loro impiego non 
+     convenzionale, il tutto finalizzato alla creazione di un operator per ""deployare"" e il monitorare il progetto. 
+     Se sopravviverete all'effetto matrioska, alla fine della sessione avrete una visione sufficiente per comprendere le potenzialità delle CRD e dell'operator pattern."
+ -
+   speaker_id: andrea-panisson
+   title: "Gitops: The Kubernetes way"
+   extract: >
+     "GitOps è un nuovo metodo di CD che utilizza Git come unica fonte di verità per le applicazioni e per l'infrastruttura 
+     (declarative infrastructure/infrastructure as code), fornendo sia il controllo delle revisioni che il controllo delle modifiche. 
+     In questo talk vedremo come implementare workflow di CI/CD Gitops basati su Kubernetes, dalla teoria alla pratica passando in rassegna i principali 
+     strumenti oggi a disposizione come ArgoCD, Flux (aka Gitops engine) e JenkinsX"
+     
+ -
+   speaker_id: massimo-referre
+   title: "Usare docker come front-end di Amazon ECS e AWS Fargate"
+   extract: >
+     "In questo talk parleremo (ma soprattutto vedremo) come poter utilizzare docker e docker-compose come strumenti di front-end per fare provisioning di 
+     container in Amazon ECS ed AWS Fargate. Nello specifico vedremo come riutilizzare artefatti yaml docker-compose esistenti per fare il medesimo deployment
+     utilizzando i servizi completamente gestiti di AWS (l'orchestratore Amazon ECS e la piattaforma serverless per container AWS Fargate)."
+     
+ -
+   speaker_id: giulio-roggero
+   title: "Modernize Legacy Systems with Kubernetes"
+   extract: >
+     "Molte aziende hanno costruito negli anni sistemi informatici complessi che gestiscono i processi interni e i processi di gestione i clienti/fornitori. 
+     Con il cambiamento delle abitudini dei consumatori quello che una volta si faceva intermediato da un agente, commesso o addetto che usava il sistema gestionale per rispondere alla richiesta del cliente ora si fa in modalità self service semplicemente con uno smartphone, il cliente si aspetta di essere autonomo nel rapporto con l’azienda. L’esperienza che ci si aspetta come consumatore è quella che si vive usando piattaforma native digitali come ad esempio Netflix e Spotify.
+     Il problema è che la maggior parte delle aziende non è partita nativamente digitale e non è possibile azzerare tutto e ripartire da capo senza correre rischi di business continuity importanti che vedono milioni di clienti coinvolti e impatti significativi a livello economico in caso di down.
+     Se non è possibile ripartire da zero, quindi come fare? Una risposta è un approccio graduale di evoluzione architetturale e tecnologica dove Kubernetes, e il suo ecosistema, giocano un ruolo chiave. 
+     In questa presentazione vedremo i tre principi cardine sulla quale si basa questa strategia: API as a Product; architetture evolutive; fast data con pattern CQRS;
+     che si uniscono per creare una strategia di Modernizzazione delle Applicazioni utilizzando i componenti dell’ecosistema del landscape CNCF (https://landscape.cncf.io).
+     Da qui capiremo quali siano i benefici nel breve, medio e lungo termine e quali passi iniziare a fare per avviare questa strategia."
+     
+ -
+   speaker_id: gabriele-santomaggio
+   title: "Machine learning pipeline  Kubeflow, let's start"
+   extract: >
+      "Kubeflow è un tool di Kubernetes per il machine learning. Nel talk vedremo da dove partire per costruire una ML pipeline basata su containers. 
+      I partecipanti impareranno come container sono utlizzati all'interno delle pipeline di ML e le loro releazioni con kubernetes.
+      Inoltre verrà spiagato come interagire con le risorse k8s utilizzato l'SDK di kubeflow."    
+
+ -
+   speaker_id: michele-sciabarra
+   title: "Il container dentro il serverless"
+   extract: >
+     "Vediamo come dietro il Faas di OpenWhisk ci sono in realtà dei container e come funzionano"  
+     

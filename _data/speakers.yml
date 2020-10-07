@@ -1,13 +1,53 @@
 # place images in:
 # img/conf-name/speaker/file.jpg
 call_for_paper_url: https://forms.gle/tGyGBhATWNhVoVd76
-call_for_paper: true
+call_for_paper: false
 list:
-  # -
-  #   id: paolo-tonin
-  #   description:
-  #   image: paolo-tonin.jpg
-  #   first_name: Paolo
-  #   last_name: Tonin
-  #   twitter: paolopstonin
-  
+   -
+     id: cristiano-degiorgis
+     description: Head of Development, MSC Technology Italia
+     image: cristiano-degiorgis.jpg
+     first_name: Cristiano
+     last_name: Degiorgis
+     twitter: 
+
+   -
+     id: andrea-panisson
+     description: Cloud native engineer, Sparkfabrik
+     image: andrea-panisson.jpg
+     first_name: Andrea	
+     last_name: Panisson
+     twitter: 
+ 
+   -
+     id: massimo-referre
+     description: Principal Developer Advocate, Amazon Web Services
+     image: massimo-referre
+     first_name: Massimo	
+     last_name: Re Ferre'	
+     twitter: mreferre
+ 
+   -
+     id: giulio-roggero
+     description: Founder & CTO, Mia-Platform
+     image: giulio-roggero.jpg
+     first_name: Giulio	
+     last_name: Roggero
+     twitter: giulioroggero
+ 
+   -
+     id: gabriele-santomaggio
+     description: Senior Software Developer, Suse
+     image: gabriele-santomaggio.jpg
+     first_name: Gabriele
+     last_name: Santomaggio	
+     twitter: gsantomaggio
+ 
+   -
+     id: michele-sciabarra
+     description:
+     image:  michele-sciabarra.jpg
+     first_name: Michele
+     last_name: Sciabarrà
+     twitter: sciabarracom
+ 

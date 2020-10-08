@@ -63,7 +63,8 @@ title: Scholarships
   </div>
 </div>
 
-{% if site.data.sponsors.diversity.list | size %}
+{% assign diversity = site.data.sponsors.diversity.list | size %}
+{% if diversity %}
 <div id="sponsors" class="sponsors">
   <div class="sponsors__contents">
     <div class="limit limit--no-overflow">

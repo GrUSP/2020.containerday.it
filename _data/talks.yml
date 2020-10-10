@@ -48,4 +48,18 @@
    title: "Il container dentro il serverless"
    extract: >
      "Vediamo come dietro il Faas di OpenWhisk ci sono in realtà dei container e come funzionano"  
-     
+
+ -
+   speaker_id:
+     - samuele-chiocca
+     - andrea-rota
+   title: "Empowering Data Science with Kubernetes"
+   extract: >
+     "Come Kubernetes può migliorare i processi di un team di Data Science? Andrea Rota, Senior Data Engineer presso il
+     dipartimento di Data Science di Tenaris e Samuele Chiocca, Kubernetes Engineer in SIGHUP risponderanno a questa
+     domanda analizzando la soluzione adottata in Tenaris.
+     Durante il talk i relatori mostreranno come l’adozione della distribuzione Kubernetes Fury di SIGHUP abbia avuto un
+     impatto positivo su due aspetti: la semplificazione dei processi di sviluppo, rilascio e gestione delle soluzioni
+     data-driven sviluppate internamente e la creazione di una piattaforma scalabile di Data Science Lab per supportare
+     il team nelle analisi e nell’addestramento di modelli di machine-learning."
+

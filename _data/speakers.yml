@@ -46,8 +46,23 @@ list:
    -
      id: michele-sciabarra
      description:
-     image:  michele-sciabarra.jpg
+     image: michele-sciabarra.jpg
      first_name: Michele
      last_name: Sciabarrà
      twitter: sciabarracom
- 
+
+   -
+     id: samuele-chiocca
+     description: Kubernetes Engineer, SIGHUP
+     image: samuele-chiocca.jpg
+     first_name: Samuele
+     last_name: Chiocca
+     twitter: nutellinoit
+
+   -
+     id: andrea-rota
+     description: Senior Data Engineer, TenarisDalmine
+     image: andrea-rota.jpg
+     first_name: Andrea
+     last_name: Rota
+     twitter: amebaspugnosa

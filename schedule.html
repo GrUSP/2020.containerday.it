@@ -6,120 +6,62 @@ title: Schedule
 
   {% include schedule/intro.html date='23 Ottobre' %}
 
-  <div class="schedule" data-dates="10-26">
+  <div class="schedule" data-dates="10-23">
     <table class="schedule__table">
       <thead>
         {% include schedule/header.html tracks='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
+        {% include schedule/event.html time='10.30-10.45' title='Presentazione GrUSP' fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html time='10.00-10.45' title='La Unix Way vista da un DevOps.' fill='true' %}
-        <tr>
-        </tr>
-          {% include schedule/talk.html time='10.50-11.20' title='Provisioning di container Docker usando Ansible: the good, the bad and the ugly' fill='true' %}
-        </tr>
+        {% include schedule/talk.html time='10.45-11.30' title='Il container dentro il serverless' fill='true' %}
 
-        {% include schedule/pause.html time='11.20-11.45' title='Coffee break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='11.30-11.45' title='Coffee break' icon="coffee" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html time='11.45-12.15' title='State of Windows Containers, how to modernise your IT for Windows Applications'  fill='true' %}
-        </tr>
-        <tr>
-          {% include schedule/talk.html time='12.20-12.50' title='Deploy e monitoring di un RabbitMQ cluster su Kubernetes' fill='true' %}
-        </tr>
+        {% include schedule/talk.html time='11.45-12.30' title='Empowering Data Science with Kubernetes' fill='true' %}
+        {% include schedule/talk.html time='12.30-13.15' title='Gitops: The Kubernetes way'  fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html time='12.55-13.25' title='Multi container applications with Docker Compose'  fill='true'  %}
-        </tr>
+        {% include schedule/pause.html time='13.15-14.15' title='Lunch' icon="food" fill='true' %}
 
-        {% include schedule/pause.html time='13.25-14.30' title='Lunch' icon="food" fill='true' %}
+        {% include schedule/talk.html  time='14.15-15.00' title='Usare docker come front-end di Amazon ECS e AWS Fargate' fill='true' %}
+        {% include schedule/talk.html  time='15.00-15.45' title='Modernize Legacy Systems with Kubernetes' fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html  time='14.30-15.00' title='Cloud Native for the Edge Computing' fill='true' %}
-        </tr>
+        {% include schedule/pause.html time='15.45-16.15' title='Coffee break' icon="coffee" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html  time='15.05-15.35' title='Containerization of parallel MPI and accelerated applications on HPC systems' fill='true' %}
-        </tr>
+        {% include schedule/talk.html time='16.15-17.00' title="Machine learning pipeline  Kubeflow, let's start" fill='true'  %}
+        {% include schedule/talk.html time='17.00-17.45' title='Kubernetes as backend: CRD & Operators' fill='true'  %}
 
-        <tr>
-          {% include schedule/talk.html time='15.40-16.10' title='Kubeflow - Data Science on Steroids'  fill='true'  %}
-        </tr>
-
-        {% include schedule/pause.html time='16.10-16.30' title='Coffee break' icon="coffee" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html time='16.30-17.00' title='Writing Cloud-Native Applications for Kubernetes'  fill='true'  %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html time='17.05-17.35' title='The path to a Serverless-native era with Kubernetes'  fill='true'  %}
-        </tr>
-
-        {% include schedule/event.html time='17.35-17.45' title='Bye bye from GrUSP' fill='true' %}
-
+        {% include schedule/event.html time='17.45-18.00' title='Bye bye from GrUSP' fill='true' %}
       </tbody>
     </table>
   </div>
 
-  <div class="schedule schedule--mobile" data-dates="10-26">
+  <div class="schedule schedule--mobile" data-dates="10-23">
     <table class="schedule__table">
       <thead>
         {% include schedule/header.html track='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
+        {% include schedule/event.html time='10.30-10.45' title='Presentazione GrUSP' fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html time='10.00-10.45' title='La Unix Way vista da un DevOps.' fill='true' %}
-        <tr>
-        </tr>
-          {% include schedule/talk.html time='10.50-11.20' title='Provisioning di container Docker usando Ansible: the good, the bad and the ugly' fill='true' %}
-        </tr>
+        {% include schedule/talk.html time='10.45-11.30' title='Il container dentro il serverless' fill='true' %}
 
-        {% include schedule/pause.html time='11.20-11.45' title='Coffee break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='11.30-11.45' title='Coffee break' icon="coffee" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html time='11.45-12.15' title='State of Windows Containers, how to modernise your IT for Windows Applications'  fill='true' %}
-        </tr>
-        <tr>
-          {% include schedule/talk.html time='12.20-12.50' title='Deploy e monitoring di un RabbitMQ cluster su Kubernetes' fill='true' %}
-        </tr>
+        {% include schedule/talk.html time='11.45-12.30' title='Empowering Data Science with Kubernetes' fill='true' %}
+        {% include schedule/talk.html time='12.30-13.15' title='Gitops: The Kubernetes way'  fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html time='12.55-13.25' title='Multi container applications with Docker Compose'  fill='true'  %}
-        </tr>
+        {% include schedule/pause.html time='13.15-14.15' title='Lunch' icon="food" fill='true' %}
 
-        {% include schedule/pause.html time='13.25-14.30' title='Lunch' icon="food" fill='true' %}
+        {% include schedule/talk.html  time='14.15-15.00' title='Usare docker come front-end di Amazon ECS e AWS Fargate' fill='true' %}
+        {% include schedule/talk.html  time='15.00-15.45' title='Modernize Legacy Systems with Kubernetes' fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html  time='14.30-15.00' title='Cloud Native for the Edge Computing' fill='true' %}
-        </tr>
+        {% include schedule/pause.html time='15.45-16.15' title='Coffee break' icon="coffee" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html  time='15.05-15.35' title='Containerization of parallel MPI and accelerated applications on HPC systems' fill='true' %}
-        </tr>
+        {% include schedule/talk.html time='16.15-17.00' title="Machine learning pipeline  Kubeflow, let's start" fill='true'  %}
+        {% include schedule/talk.html time='17.00-17.45' title='Kubernetes as backend: CRD & Operators' fill='true'  %}
 
-        <tr>
-          {% include schedule/talk.html time='15.40-16.10' title='Kubeflow - Data Science on Steroids'  fill='true'  %}
-        </tr>
-
-        {% include schedule/pause.html time='16.10-16.30' title='Coffee break' icon="coffee" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html time='16.30-17.00' title='Writing Cloud-Native Applications for Kubernetes'  fill='true'  %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html time='17.05-17.35' title='The path to a Serverless-native era with Kubernetes'  fill='true'  %}
-        </tr>
-
-        {% include schedule/event.html time='17.35-17.45' title='Bye bye from GrUSP' fill='true' %}
-
+        {% include schedule/event.html time='17.45-18.00' title='Bye bye from GrUSP' fill='true' %}
       </tbody>
     </table>
   </div>

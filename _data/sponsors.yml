@@ -51,6 +51,9 @@ gold:
 
   max: 16
   list:
+    -
+      url: https://www.workwave.com/?utm_source=containerday
+      image: workwave.svg
 
 silver:
   price: € 750
@@ -66,9 +69,6 @@ silver:
     -
       url: https://labs.madisoft.it/?utm_source=containerday
       image: madisoft.svg
-    -
-      url: https://www.workwave.com/?utm_source=containerday
-      image: workwave.svg
 
 bronze:
   price: € 500

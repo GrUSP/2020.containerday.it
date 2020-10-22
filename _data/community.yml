@@ -6,3 +6,8 @@ list:
     name: PUG Romagna
     image: pug-romagna.svg
     site: https://www.meetup.com/it-IT/PUG-Romagna-PHP-User-Group-Romagnolo/
+
+  -
+    name: devRomagna
+    image: devromagna.svg
+    site: https://devromagna.org/
